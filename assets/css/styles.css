@@ -1176,7 +1176,7 @@ margin-bottom: var(--mb-0-5);
     }
 }
 /* For large devices */
-@media screen and (max-width : 1204px) {
+/* @media screen and (max-width : 1204px) {
     .header,
     .main,
     .footer__container{
@@ -1212,4 +1212,4 @@ margin-bottom: var(--mb-0-5);
     .contact__inputs{
         grid-template-columns: repeat(2,1fr);
     }
-}
+} */
