@@ -496,29 +496,35 @@ margin-bottom: var(--mb-0-5);
     background-color: var(--first-color);
 }
 .skills_html{
+    width: 95%;
+}
+.skills_responsive{
     width: 90%;
 }
 .skills_css{
     width: 80%;
 }
 .skills_js{
-    width: 60%;
+    width: 75%;
 }
 .skills_react{
+    width: 80%;
+}
+.skills_vue{
     width: 85%;
 }
 
 .skills_php{
-    width: 80%;
+    width: 93%;
 }
 .skills_node{
-    width: 70%;
+    width: 85%;
 }
-.skills_firebase{
-    width: 90%;
+.skills_asp{
+    width: 80%;
 }
-.skills_laravel{
-    width: 95%;
+.skills_Python{
+    width: 65%;
 }
 .skills_figma{
     width: 90%;
@@ -1103,7 +1109,9 @@ margin-bottom: var(--mb-0-5);
         column-gap: 5rem;
     }
     .about__img{
-        width: 350px;
+        width: 300px;
+        filter: blur(3px);
+	-webkit-filter: blur(3px);
     }
     .about__description{
         text-align: initial;
