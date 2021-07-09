@@ -1110,8 +1110,6 @@ margin-bottom: var(--mb-0-5);
     }
     .about__img{
         width: 300px;
-        filter: blur(3px);
-	-webkit-filter: blur(3px);
     }
     .about__description{
         text-align: initial;
