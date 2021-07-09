@@ -188,6 +188,7 @@ nav{
 }
 .nav__logo,
 .nav__toggle{
+    font-size: 1rem !important;
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -225,6 +226,7 @@ nav{
 }
 .nav__link
 {
+    font-size: 1rem !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,7 +301,7 @@ nav{
     color: var(--first-color-alt);
 }  
  .home__blob{
-     width: 200px;
+     width: 350px !important;
      fill: var(--first-color);
  }
  .home__blob-img
@@ -404,7 +406,7 @@ nav{
 
 /*==================== ABOUT ====================*/
 .about__img{
-    width: 200px;
+    width: 350px !important;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -978,35 +980,12 @@ margin-bottom: var(--mb-0-5);
 
 .content-section{
     padding: 0rem 2rem;
-    width: 60rem;
+    width: 80rem;
     margin: auto;
 }
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media (max-width: 360px) {
-    .content-section{
-        width: 100% !important;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .content-section{
-        width: 100% !important;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .content-section{
-        width: 100% !important;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .content-section{
-        width: 100% !important;
-    }
-}
 
 
 
@@ -1026,7 +1005,7 @@ margin-bottom: var(--mb-0-5);
         grid-template-columns: .25fr 3fr;
     }
     .home__blob{
-        width: 180px;
+        width: 180px !important;
     }
     .skills__title{
         font-size: var(--normal-font-size);
@@ -1141,9 +1120,7 @@ margin-bottom: var(--mb-0-5);
         padding-top: 5.5rem;
         column-gap: 2rem;
     }
-    .home__blob{
-        width: 270px;
-    }
+    
     .home__scroll{
         display: none;
     }
@@ -1265,3 +1242,42 @@ margin-bottom: var(--mb-0-5);
         grid-template-columns: repeat(2,1fr);
     }
 } */
+
+@media (max-width: 360px) {
+    .content-section{
+        width: 100% !important;
+        overflow-y: hidden !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .content-section{
+        width: 100% !important;
+        overflow-y: hidden !important;
+    }
+    .home__blob{
+        width: 270px !important;
+    }
+    .about__img {
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .content-section{
+        width: 100% !important;
+        overflow-y: hidden !important;
+    }
+    .home__blob{
+        width: 270px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .content-section{
+        width: 100% !important;
+    }
+}
+
+
+
